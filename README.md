@@ -15,7 +15,7 @@ The thesis explores application of deep learning on detection and classification
 The code requires Python versions of 2.x or 3.x and general libraries available through the Anaconda package. In addition, [geopandas](http://geopython.github.io/OWSLib/installation) for working with OWS.
 ## File Description <a name="description"></a>
 This project includes notebook for data extraction made by Alex Jung et al.
-The YOLO5 file was taken from Roboflow website.
+The YOLO5 file was taken from Roboflow website. `Copy of Roboflow-Custom-YOLOv5.ipynb`
 The file itself is very explainable and the only chanhes to be made are in data inputting
 ```
 %cd /content
