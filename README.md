@@ -12,7 +12,7 @@ The thesis explores application of deep learning on detection and classification
 
 
 ## Installation
-The code requires Python versions of 2.x or 3.x and general libraries available through the Anaconda package. [geopandas](http://geopython.github.io/OWSLib/installation) for 
+The code requires Python versions of 2.x or 3.x and general libraries available through the Anaconda package. In addition, [geopandas](http://geopython.github.io/OWSLib/installation) for working with OWS.
 ## File Description <a name="description"></a>
 This project includes notebook for data extraction made by Alex Jung et al.
 The .ipynb file titled 'dataset_creation.ipynb' contains the code that creates the csv file 'bike_sharing_dataset.csv' that is used by the file 'bike_sharing_demand.ipynb' to implement the ML algorithms. The three different .sav files include the best saved ML models.
@@ -22,11 +22,10 @@ Further, previous work on zebra crossings was studied, both using traditional wa
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
 The data used for the analysis comes from:
 * [Helsingin karttapalvelu](https://kartta.hel.fi/) `Data Preparation.ipynb`
-The loading of the data was done using the below code.
+The loading of the data was done using the below code:
 * [Alex Jung ResearchPublic](https://github.com/alexjungaalto/ResearchPublic/blob/master/RoadMarkingHelsinki/RoadMarkingMonitoring.ipynb): this includes the code for getting the data from geoinformation server kartta.hel.fi. Implemented by Alex Jung, Jyoti Prasad Bartaula, Sangam Deuja.
 Data was trained using Retine Net and YOLO5
 * [Retina-Net](https://github.com/fizyr/keras-retinanet): this includes the implementation of the Retina-Net by Fizyr.
 * [YOLO5](https://colab.research.google.com/drive/1gDZ2xcTOgR39tGGs-EZ6i3RTs16wmzZQ) 
-Additional:
 * [Roboflow](https://roboflow.com) as data augmentation tool. Moroever with Roboflow the data was converted to the appropriate for YOLO5 format.
 
