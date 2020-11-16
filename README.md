@@ -1,4 +1,4 @@
-#Road marking condition monitoring and classification using deep learning for City of Helsinki
+# Road marking condition monitoring and classification using deep learning for City of Helsinki
 This project is the part of a master thesis for Data Science Degree at Aalto University.
 ## Table of Contents
 * [Project Motivation and Description](#motivation)
@@ -8,7 +8,7 @@ This project is the part of a master thesis for Data Science Degree at Aalto Uni
 * [Limitations](#Limitations)
 * [Licensing, Authors, Acknowledgements](#licensing)
 ## Project Motivation and Description <a name="motivation"></a>
-The thesis explores application of deep learning on detection and classification of road markings in the city of Helsinki. The need for maintaining the infrastructure is the essential part for smart cities. City of Helsinki is thriving towards the digitization of the city, providing geo spatial information on one of their open geoinformatics service, [Helsingin karttapalvelu] (https://kartta.hel.fi/). That was utilized as the main data source. Based on the satellite images obtained from kartta.hel, the road markings were extracted.
+The thesis explores application of deep learning on detection and classification of road markings in the city of Helsinki. The need for maintaining the infrastructure is the essential part for smart cities. City of Helsinki is thriving towards the digitization of the city, providing geo spatial information on one of their open geoinformatics service, [Helsingin karttapalvelu](https://kartta.hel.fi). That was utilized as the main data source. Based on the satellite images obtained from kartta.hel, the road markings were extracted.
 
 
 ## Installation
