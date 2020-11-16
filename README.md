@@ -15,7 +15,18 @@ The thesis explores application of deep learning on detection and classification
 The code requires Python versions of 2.x or 3.x and general libraries available through the Anaconda package. In addition, [geopandas](http://geopython.github.io/OWSLib/installation) for working with OWS.
 ## File Description <a name="description"></a>
 This project includes notebook for data extraction made by Alex Jung et al.
-The .ipynb file titled 'dataset_creation.ipynb' contains the code that creates the csv file 'bike_sharing_dataset.csv' that is used by the file 'bike_sharing_demand.ipynb' to implement the ML algorithms. The three different .sav files include the best saved ML models.
+The YOLO5 file was taken from Roboflow website.
+The file itself is very explainable and the only chanhes to be made are in data inputting
+```
+%cd /content
+!curl -L "YOUR LINK HERE" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+```
+You can paste instead your own link which can be obtained if you upload data to Roboflow. The YOLO5 has its own format for data, however if you want to insert data without using Roboflow, you can google what format YOLO5 expects. In this work we utilized Roboflow also as a data augmentation tool.
+Below we can change yolo5s to yolo5m or yolo5l, depending on the size of the model.
+```
+#this is the model configuration we will use for our tutorial 
+%cat /content/yolov5/models/yolov5s.yaml
+```
 ## Results
 Further, previous work on zebra crossings was studied, both using traditional ways and deep learning (DL) based ones. Deep Learning were favoured over traditional due to ability to capture deeper abstract concepts and hierarchical features. Several recent DL based object detection algorithms, their training process, hyperparameter tuning, results are described in depth. In addition history of computer vision, especially object detectors, their benchmarks, disadvantages, and advantages are studied extensively. Taking into account the specifics of the dataset such as low resolution, small size and noise, data augmentation and transfer learning were applied. After the comparison between various object detection algorithms and also taking into account requirements for the performance as accuracy, robustness to noise, shadows, state of the art algorithms were chosen, such as Retina Net and YOLO5. YOLO5 outperformed in all desired metrics. It achieved mAP_0.5 of 0.68, inference time of 0.017 seconds with relatively low (compared to RetineNet) time for training. However Retina Net took twice less time for training.
 
