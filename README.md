@@ -29,6 +29,7 @@ Below we can change yolo5s to yolo5m or yolo5l, depending on the size of the mod
 ```
 ## Results
 Further, previous work on zebra crossings was studied, both using traditional ways and deep learning (DL) based ones. Deep Learning were favoured over traditional due to ability to capture deeper abstract concepts and hierarchical features. Several recent DL based object detection algorithms, their training process, hyperparameter tuning, results are described in depth. In addition history of computer vision, especially object detectors, their benchmarks, disadvantages, and advantages are studied extensively. Taking into account the specifics of the dataset such as low resolution, small size and noise, data augmentation and transfer learning were applied. After the comparison between various object detection algorithms and also taking into account requirements for the performance as accuracy, robustness to noise, shadows, state of the art algorithms were chosen, such as Retina Net and YOLO5. YOLO5 outperformed in all desired metrics. It achieved mAP_0.5 of 0.68, inference time of 0.017 seconds with relatively low (compared to RetineNet) time for training. However Retina Net took twice less time for training.
+![alt text](https://github.com/danatok/Road-marking-detections/img/test_batch0_pred.jpg?raw=true)
 
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
 The data used for the analysis comes from:
